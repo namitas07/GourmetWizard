@@ -1,0 +1,163 @@
+body {
+  background-color: #100f0f;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #df8f53; /* Coral color - a vibrant and captivating shade */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(#77e2ff 50%, #f5fa91 50%);
+  
+  
+
+}
+
+header {
+  background-color: #b20df3; /* Yellow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #090606;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d15454; /* black */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Times New Roman', cursive; /* Different handwriting */
+  text-align: center;
+  
+  
+  
+  
+  
+  padding: 10px 20px; /* Padding to create space around the title */
+  text-shadow: 2px 2px 4px rgba(9, 8, 8, 0.5);
+  font-size: 48px;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive; /* Different handwriting */
+  color: #fff; /* White text color */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 48px;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive; /* Different handwriting */
+  color: #191718b2; /* Vibrant color (Pinkish) */
+  text-align: center;
+  text-shadow: 4px 4px 8px rgba(130, 126, 126, 0.5); /* Text shadow for contrast */
+  border: px solid #2b1b2c; /* Border color (Deep blue) */
+  padding: 15px; /* Padding around the title */
+  border-radius: 10px; /* Rounded border */
+  
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  background-color: rgba(28, 3, 3, 0.452)585;
+  border: 5px solid #f3f2ee; /* Yellow */
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 12px;
+  width: 300px;
+  margin: 10px;
+}
+
+button[type="submit"] {
+  background-color: #a3f321; /* Blue */
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 6px 10px;
+  transition: background-color 0.2s;
+  margin: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #121167b8; /* Darker blue on hover */
+}
+
+#results {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr); /* 4 recipes in each row */
+  margin: 40px 0;
+}
+
+#results > div {
+  background-color: #eebece; /* Pink */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#results img {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#results h3 {
+  color: #080808;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Pacifico', cursive; /* Different handwriting */
+}
+
+#results ul {
+  margin: 0;
+  padding: 0;
+}
+
+#results li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#results a {
+  background-color: #ededed; /* Green */
+  border-radius: 8px;
+  color: #000000;
+  font-size: 20px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  width: 100%; /* Make the button occupy the entire width */
+  margin-top: auto; /* Push button to the bottom */
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#results a:hover {
+  background-color: rgb(145, 140, 240); 
+}
+
