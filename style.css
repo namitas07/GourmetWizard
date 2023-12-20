@@ -1,5 +1,5 @@
 body {
-  background-color: #100f0f;
+  background-color: #0f0d0d;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
   line-height: 1.5;
@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: linear-gradient(#77e2ff 50%, #f5fa91 50%);
+  background: linear-gradient(#ca6b4b 50%, #f0af36 50%);
   
   
 
@@ -28,7 +28,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #d15454; /* black */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 8px rgba(165, 156, 156, 0.1);
   padding: 40px;
   text-align: center;
 }
@@ -106,7 +106,7 @@ button[type="submit"]:hover {
 #results > div {
   background-color: #eebece; /* Pink */
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(182, 171, 171, 0.1);
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -141,7 +141,7 @@ button[type="submit"]:hover {
 #results a {
   background-color: #ededed; /* Green */
   border-radius: 8px;
-  color: #000000;
+  color: #111111;
   font-size: 20px;
   padding: 12px 20px;
   text-align: center;
